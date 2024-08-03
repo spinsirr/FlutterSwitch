@@ -326,6 +326,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
       animation: _animationController,
       builder: (context, child) {
         return Container(
+          padding: EdgeInsets.zero,
           width: widget.width,
           child: Align(
             child: GestureDetector(
